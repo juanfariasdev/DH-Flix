@@ -1,0 +1,30 @@
+.filmes-banners{
+    height: 100vh;
+    /* Aplicando o efeito paralax que foi pedido nos requisitos*/
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    justify-content: right;
+  }
+  
+  .filmes-title{
+    padding: 20px 0;
+  }
+  
+  .filmes-title h2 {
+    margin-top: 25px;
+}
+.filmes-title>div {
+  margin: 15px 0px;
+}
+
+  iframe{
+    width: 100%;
+    height: 90vh;
+  }
+  
+  .sobre-filme{
+    margin: 0 auto;
+  }
